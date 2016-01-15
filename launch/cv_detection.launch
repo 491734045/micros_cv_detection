@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="cv_detection" type="cv_detection" name="cv_detection" output="screen">
+    
+    <!-- Initial curve -->
+    <param name="initial_x" type="int" value="320" />
+    <param name="initial_y" type="int" value="270" />
+    <param name="initial_r" type="int" value="20" />
+  </node>
+
+</launch>
